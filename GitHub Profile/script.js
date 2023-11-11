@@ -33,7 +33,7 @@ const profile = async (user) => {
     </div>
 
     <form id="search" onsubmit="return searchUser()">
-    <input type="text" placeholder="search"  />
+    <input type="text" placeholder="search" spellcheck = "false" />
     </form>
 
 
